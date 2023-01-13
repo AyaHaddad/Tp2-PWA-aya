@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: "%s - Challenge48H",
-    title: "Challenge48H",
+    titleTemplate: "%s - Star wars Wiki",
+    title: "Star wars Wiki",
     htmlAttrs: {
       lang: "en",
     },

@@ -1,0 +1,24 @@
+@use '../theme/theme' as theme;
+
+.v-category-item-title{
+    color: theme.$yellow !important;
+    font-family: theme.$Bold;
+}
+
+.v-category-item-text{
+    color: theme.$white !important;
+    font-family: theme.$Medium;
+    text-transform: capitalize;
+}
+
+.v-container-category{
+    background-image: src("../../img/night.jpeg") !important;
+}
+.v-container-category-title{
+    color: theme.$yellow;
+    font-family: theme.$Medium !important;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}

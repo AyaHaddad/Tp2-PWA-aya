@@ -4,8 +4,10 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _4b8fae1c = () => interopDefault(import('../pages/category.vue' /* webpackChunkName: "pages/category" */))
+const _5eeab1f5 = () => interopDefault(import('../pages/category/index.vue' /* webpackChunkName: "pages/category/index" */))
 const _17482c70 = () => interopDefault(import('../pages/quizHome.vue' /* webpackChunkName: "pages/quizHome" */))
+const _456abd20 = () => interopDefault(import('../pages/category/_slug/index.vue' /* webpackChunkName: "pages/category/_slug/index" */))
+const _20f23fd8 = () => interopDefault(import('../pages/category/_slug/_id.vue' /* webpackChunkName: "pages/category/_slug/_id" */))
 const _bee010e4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -21,12 +23,20 @@ export const routerOptions = {
 
   routes: [{
     path: "/category",
-    component: _4b8fae1c,
+    component: _5eeab1f5,
     name: "category"
   }, {
     path: "/quizHome",
     component: _17482c70,
     name: "quizHome"
+  }, {
+    path: "/category/:slug",
+    component: _456abd20,
+    name: "category-slug"
+  }, {
+    path: "/category/:slug/:id",
+    component: _20f23fd8,
+    name: "category-slug-id"
   }, {
     path: "/",
     component: _bee010e4,
