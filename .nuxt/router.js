@@ -5,6 +5,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _5eeab1f5 = () => interopDefault(import('../pages/category/index.vue' /* webpackChunkName: "pages/category/index" */))
+const _6f56ce6e = () => interopDefault(import('../pages/quiz.vue' /* webpackChunkName: "pages/quiz" */))
 const _17482c70 = () => interopDefault(import('../pages/quizHome.vue' /* webpackChunkName: "pages/quizHome" */))
 const _456abd20 = () => interopDefault(import('../pages/category/_slug/index.vue' /* webpackChunkName: "pages/category/_slug/index" */))
 const _20f23fd8 = () => interopDefault(import('../pages/category/_slug/_id.vue' /* webpackChunkName: "pages/category/_slug/_id" */))
@@ -25,6 +26,10 @@ export const routerOptions = {
     path: "/category",
     component: _5eeab1f5,
     name: "category"
+  }, {
+    path: "/quiz",
+    component: _6f56ce6e,
+    name: "quiz"
   }, {
     path: "/quizHome",
     component: _17482c70,

@@ -1,0 +1,20 @@
+@use '../theme/theme' as theme;
+
+
+.questionHeadline {
+    font-family: theme.$jedi;
+    text-shadow: theme.$yellow 2px 0 16px;
+}
+
+.subtitleQuiz {
+    font-family: theme.$jhol;
+    font-size: 24px;
+    color: theme.$yellow;
+    text-shadow: theme.$yellow 2px 0 16px;
+}
+
+.captionQuiz {
+    font-family: theme.$jedi;
+    font-size: 20px;
+    text-shadow: theme.$yellow 1px 0 8px;
+}

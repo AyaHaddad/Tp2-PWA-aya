@@ -23,7 +23,7 @@
 export default {
   methods: {
     redirect() {
-      this.$router.push("/quizHome");
+      this.$router.push("/Quiz");
     },
   },
 };

@@ -7,6 +7,13 @@
     "_name": "_5eeab1f5"
   },
   {
+    "name": "quiz",
+    "path": "/quiz",
+    "component": "/Users/ayahaddad/Documents/starwars/pages/quiz.vue",
+    "chunkName": "pages/quiz",
+    "_name": "_6f56ce6e"
+  },
+  {
     "name": "quizHome",
     "path": "/quizHome",
     "component": "/Users/ayahaddad/Documents/starwars/pages/quizHome.vue",
