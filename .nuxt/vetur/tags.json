@@ -1,0 +1,11 @@
+{
+  "HomeBlockQuiz": {
+    "description": "Auto imported from components/HomeBlockQuiz.vue"
+  },
+  "HomeBlockWiki": {
+    "description": "Auto imported from components/HomeBlockWiki.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/Navbar.vue"
+  }
+}

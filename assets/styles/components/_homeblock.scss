@@ -1,0 +1,31 @@
+@use '../theme/theme' as theme;
+
+.background {
+    background: #000 right/100vh no-repeat url("../img/faucon.png");
+    h1, p {
+        color: white;
+    }
+    min-height: 91.5vh;
+
+    .flex-container {
+        min-height: 91.5vh;
+    }
+
+}
+
+
+p {
+    font-weight: lighter;
+}
+
+.primaryBtn.v-btn {
+    background-color: $yellow !important;
+    border-radius: 10px !important;
+
+    .v-btn__content {
+        a {
+            color: white;
+        }
+    }
+    
+}

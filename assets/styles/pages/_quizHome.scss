@@ -1,0 +1,19 @@
+@use '../theme/theme' as theme;
+
+.v-quizHome{
+    display: flex;
+    flex-direction: column !important;
+    background: black;
+    .v-quiHome-title{
+        color: theme.$yellow;
+    }
+    .v-btn-quizz{
+       color: theme.$white !important; 
+       text-transform: none;
+       border-radius: 16px;
+       .v-btn__content{
+        font-family: theme.$Medium ;
+        font-size: 16px;
+       }
+    }
+}

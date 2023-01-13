@@ -1,0 +1,23 @@
+[
+  {
+    "name": "category",
+    "path": "/category",
+    "component": "/Users/ayahaddad/Documents/starwars/pages/category.vue",
+    "chunkName": "pages/category",
+    "_name": "_4b8fae1c"
+  },
+  {
+    "name": "quizHome",
+    "path": "/quizHome",
+    "component": "/Users/ayahaddad/Documents/starwars/pages/quizHome.vue",
+    "chunkName": "pages/quizHome",
+    "_name": "_17482c70"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/ayahaddad/Documents/starwars/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_bee010e4"
+  }
+]

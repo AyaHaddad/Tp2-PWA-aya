@@ -1,0 +1,28 @@
+@use '../theme/theme' as theme;
+
+
+.mainToolbar.theme--light.v-toolbar.v-sheet {
+    background-color: transparent !important;
+    .v-toolbar__content{
+        backdrop-filter: blur(2px);
+        background: linear-gradient(125deg, rgba(0, 0, 0, 0.5) 0%, rgba(20, 33, 61, 0.5) 100%) !important;
+        
+        .container {
+            width: 200px;
+            display: flex;
+            justify-content: center;
+    
+            a {
+                margin: auto;
+                font-family: theme.$jedi;
+                text-shadow: theme.$yellow 2px 0 16px;
+                color: white;
+    
+                &:focus, &:active, &:hover {
+                    color: $yellow;
+                }
+            }
+        }
+    }
+}
+

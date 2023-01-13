@@ -1,0 +1,92 @@
+//colors
+$white: #ffffff;
+$grey: #dfe1e6;
+$black: #8993a4;
+$grey3: #E5E5E5;
+$blue: #14213D;
+$yellow: #FCA311;
+
+//other colors
+$green: #00b25d;
+$red2: #ff2a2a;
+$red3: #E00F00;
+$orange-preview: #FF5E00;
+$orange-preview2:#FFE7D9;
+$pink: #ffd7dc;
+$light-grey: rgba(137, 147, 164, 0.1);
+$orange-gradient: linear-gradient(90deg, #ff2a71 0%, #ff5e00 100.08%);
+$red-gradient : linear-gradient(90deg, #D81000 0%,#FF6B60 100%);
+$green-gradient: linear-gradient(
+  360deg,
+  #007a40 0%,
+  rgba(0, 196, 102, 0.75) 100%
+);
+$blue-gradient: linear-gradient(
+  360deg,
+  #013580 0%,
+  #886B92 100%
+);
+$pink-gradient: linear-gradient(180deg, #ffd7dd 0%, rgba(255, 94, 0, 0.2) 100%);
+$black-gradient: linear-gradient(360deg, #14131b 0%, #565a78 100%);
+$black2: #263238;
+
+//color roles
+$success: $green;
+$error: $red2;
+
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: local('~/assets/fonts/Roboto/Roboto-Regular.ttf');
+    src: url('~/assets/fonts/Roboto/Roboto-Regular.ttf');
+  }
+
+@font-face  {
+    font-family: "Roboto Bold";
+    src: local('~/assets/fonts/Roboto/Roboto-Bold.ttf');
+    src: url('~/assets/fonts/Roboto/Roboto-Bold.ttf');
+    font-weight: bold;
+  }
+
+  @font-face  {
+    font-family: 'Roboto Medium';
+    src: local("~/assets/fonts/Roboto/Roboto-Medium.ttf");
+    src: url('~/assets/fonts/Roboto/Roboto-Medium.ttf');
+  }
+
+  @font-face  {
+    font-family: 'Roboto LightItalic';
+    src: local("~/assets/fonts/Roboto/Roboto-LightItalic.ttf");
+    src: url('~/assets/fonts/Roboto/Roboto-LightItalic.ttf');
+  }
+
+
+  @font-face  {
+    font-family: "Star Jedi";
+    src: local('/assets/fonts/star/starjedi.ttf');
+    src: url('/assets/fonts/star/starjedi.ttf');
+    font-weight: bold;
+  }
+
+  @font-face  {
+    font-family: 'Star Jhol';
+    src: local("/assets/fonts/star/starjhol.ttf");
+    src: url('/assets/fonts/star/starjhol.ttf');
+  }
+
+  @font-face  {
+    font-family: 'Star Jout';
+    src: local("/assets/fonts/star/starjout.ttf");
+    src: url('/assets/fonts/star/starjout.ttf');
+  }
+
+
+  $jedi: 'Star Jedi', sans-serif;
+  $jhol: 'Star Jhol', sans-serif;
+  $jout: "Star Jout", sans-serif;
+
+//fonts variables Roboto
+$regular: 'Roboto Regular', sans-serif;
+$Bold: 'Roboto Bold', sans-serif;
+$Medium: "Roboto Medium", sans-serif;
+$LightItalic: "Roboto LightItalic", sans-serif;
